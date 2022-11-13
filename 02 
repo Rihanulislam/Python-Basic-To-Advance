@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMaKkvnX5loi7DCMidF53Sp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rihanulislam/Python-Basic-To-Advance/blob/main/02%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n7dBD7Uw9zzk",
+        "outputId": "7b52077b-ceb7-4781-e5b4-47a16aea50a0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "What Is your Name: Raihan Sharif\n",
+            "What Is Your Age : 112\n",
+            "Your Name IS Raihan Sharif Your Age Is 112\n"
+          ]
+        }
+      ],
+      "source": [
+        "#How TO Take Input Form User ?\n",
+        "name = input('What Is your Name: ')\n",
+        "age = input('What Is Your Age : ')\n",
+        "print(\"Your Name IS \"+ name +\"! Your Age Is \"+ age)"
+      ]
+    }
+  ]
+}
