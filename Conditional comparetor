@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMBsHkglexqN4mA/Apur6Ak",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rihanulislam/Python-Basic-To-Advance/blob/main/Conditional%20comparetor\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "32UFai5f_UPX",
+        "outputId": "81aa1d2b-573c-4212-849e-fa0450411757"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter Your Age: 45\n",
+            "Senior\n"
+          ]
+        }
+      ],
+      "source": [
+        "#conditional Statement\n",
+        "age = int(input(\"Enter Your Age: \"))\n",
+        "if age >30:\n",
+        "  print(\"You Are Senior\")\n",
+        "else:\n",
+        "  print(\"You are junier\")"
+      ]
+    }
+  ]
+}
